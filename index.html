@@ -1,129 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Hello!</title>
-    
-    <!-- import the webpage's stylesheet -->
+      <title>Flashcards</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
   <body>
-    <h1>Nicki Minaj's Tour</h1>
-    
-     <ul id="customnav">
-     <li><a href="#home">Home</a></li>
-      <li><a href="#tour dates">Tour Dates</a></li>
-      <li><a href="#album">Albums</a></li>
-      <li><a href="#guest">Guest Appearances</a></li>
-    </ul>
-   
-    <div id="heading1">
-    <h3 id="home">
-      About Nicki Minaj
-    </h3>
-    <div id="bg1">
-    <h2>
-      Nicki Minaj
-      </h2>
-     <img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2F2b1a0d36-87e8-4a25-9229-82782397e3bc.image.png?v=1603613448863" id="nicki"   height="200">
-    </div>
-      <p id="paragraph">
-Nicki Minaj whose real name is Onika Tanya Maraj-Petty was
-born on December 8, 1982 in Saint James, Trinidad and Tobago.
-Minaj is a  rapper, singer, songwriter, actress and model.
-      </p>
-<ul id="reviews">
-  <li>She’ll forever be the queen, just because of how hard she works and what she came from"-Lil Wayne</li>
-  <li>"One of the biggest, boldest voices in hip-hop"-Billboard</li>
-  <li>"Nicki Minaj just may be the hardest-working diva in show business"-Rolling Stones</li>
-      </ul>
-     </div>
-    
-    <div id="heading2">
-      
-    <h3 id="tour dates">
-      Tour Dates
-    </h3>
-      
-    <div id="bg2">
-     <ul id="tourdates">
-        <li>October 20,2020-Washington D.C</li>
-        <li>October 23,2020-Atlanta,Georgia</li>
-        <li>October 30,2020-Houston,Texas</li>
-        <li>November 7,2020-Tucson,Arizona</li>
-        <li>November 11,2020-San Diego,California</li>
-        <li>November 21,2020-Los Angeles,California</li>
-        <li>November 25,2020-Las Vegas,Nevada </li>
-        <li>December 1,2020-Portland,Oregon </li>
-        <li>December 4,2020-Seattle,Washington  </li>
-        <li>December 8,2020-Queens,New York</li>
-      </ul>
-     </div>
-      
-    </div>
-   
-   <div id="bg3">
-    <h3 id="album">
-      Albums
-    </h3>
-    <div class="container">
-      
-      <div class="column">
-        <img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2Fdf7bc269-d777-4ca6-ba52-1c8342ff93e7.image.png?v=1603659212535" id="album1" height="200">
-        <p>
-          2010
-        </p>
-      </div>
-      
-      <div class="column">
-        <img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2F5d54a347-2524-4150-9f08-24eeb60335c0.image.png?v=1603659238526" id="album2" height="200">
-      <p>
-        2012
-      </p>
-      </div>
-      
-      <div class="column">
-        <img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2F2d2a0fea-8fdc-4980-b2fa-51d12f2892d3.image.png?v=1603659321552" id="album3" height="200">
-        <p>
-          2014
-        </p>
-      </div>
-      
-      <div class="column">
-        <img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2F1098e8f4-680e-4681-9e4d-a70a194fb711.image.png?v=1603661633847" id="album4" height="200">
-        <p>
-          2018
-        </p>
-      </div>
-    </div>
-    </div>
-    
-    <div id="heading3">
-    <h3 id="guest">
-      Guest Appearances
-    </h3>
-    <div id="bg4">
-       <h2>
-    Beyoncé
-      </h2>
-    <a href="https://www.beyonce.com/"><img src="https://cdn.glitch.com/3e3f654c-8f67-4bc5-8f67-ed9b0e8dba92%2Feb3fadda-31f6-43bf-9255-6fbcb35e24f4.image.png?v=1603661724516" id="beyonce" height="200"></a>
-    </div>
-      </div>
-    
+    <h1>Flash Cards:Spanish and English Words</h1>
+    <h2 id="flash-card">
   
+    </h2>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    
+    <button onclick="showAnswer()">
+      Show Answer
+    </button>
+    
+    <button onclick="newCard()">
+      Next
+    </button>
+    
   </body>
 </html>
+
